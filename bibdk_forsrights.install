@@ -1,0 +1,14 @@
+<?php
+
+/*
+ * Bibliotek.dk forsRights install file
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function bibdk_forsrights_schema() {
+  $schema['cache_forsrights_webservice'] = drupal_get_schema_unprocessed('system', 'cache');
+  return $schema;
+}
+
