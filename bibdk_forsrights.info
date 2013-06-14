@@ -1,7 +1,7 @@
 name = Bibliotek.dk - FORS rights webservice request
 description = Check library access to ressources
 core = 7.x
-version = 7.x-0.4
+version = 7.x-0.1
 package = Bibliotek.dk
 
 files[] = bibdk_forsrights.module
