@@ -17,7 +17,7 @@ function bibdk_forsrights_schema() {
  *
  * Implements of hook_requirements().
  */
-function ting_openuserstatus_requirements() {
+function bibdk_forsrights_requirements() {
   $serviceurl = variable_get('bibdk_forsrights_url', FALSE);
   if ($serviceurl !== FALSE) {
     return array();
