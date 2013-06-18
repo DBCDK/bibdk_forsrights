@@ -7,7 +7,7 @@ function bibdk_forsrights_ting_client_webservice() {
   $ret = array();
   $ret['forsrights']['class'] = 'bibdk_forsrights';
   $ret['forsrights']['url'] = 'bibdk_forsrights_url';
-
+  $ret['forsrights']['xsdNamespace'] = array(0=>'http://oss.dbc.dk/ns/forsrights');
   return $ret;
 }
 
